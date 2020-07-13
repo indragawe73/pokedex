@@ -1,0 +1,30 @@
+.WrapCard {
+  cursor: pointer;
+}
+.padTop10 { padding-top: 10px}
+.padTop20 { padding-top: 20px}
+.padTop30 { padding-top: 30px}
+.padBot10 { padding-bottom: 10px}
+.padBot20 { padding-bottom: 20px}
+.padBot30 { padding-bottom: 30px}
+
+
+.wrap_sorting_array {
+    /*display: flex;*/
+  /*align-self: flex-end;*/
+}
+.label_sort {
+  letter-spacing: 2px;
+  display: block;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.sorting_array {
+  border: 0;
+  width: 100%;
+  margin: 0px auto 20px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}

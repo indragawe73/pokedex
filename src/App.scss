@@ -1,0 +1,23 @@
+@import   'style/_bootstrap.scss', 
+          'style/_mdl.scss', 
+          'style/_home.scss', 
+          'style/_loading.scss';
+
+.relative {
+  position: relative;
+}
+
+$break-small: 570px;
+// $break-tablet: 780px;
+$break-tablet: 768px;
+// $break-large: 1200px;
+
+@media screen and (max-width: $break-tablet) {
+  .wrap_home_tab {
+  }
+}
+@media screen and (max-width: $break-small) {
+  .login_right {
+    display: none;
+  }
+}
